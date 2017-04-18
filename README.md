@@ -1,6 +1,24 @@
 # AndroidUSBCamera
 
 	一款AndroidUsb摄像头数据获取库。无需root权限。
+
+
+# 使用方法
+
+Step 1. Add it in your root build.gradle at the end of repositories:
+	allprojects {
+		repositories {
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+Step 2. Add the dependency
+
+	dependencies {
+	        compile 'com.github.hailindai:AndroidUSBCamera:v1.0.0'
+	}
+
+
 	例子代码：
 
     private static final String TAG = "MainActivity";
