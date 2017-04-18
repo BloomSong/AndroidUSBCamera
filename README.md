@@ -1,5 +1,8 @@
 # AndroidUSBCamera
 
+	一款AndroidUsb摄像头数据获取库。无需root权限。
+	例子代码：
+
     private static final String TAG = "MainActivity";
 
     //摄像头控制类
